@@ -1,6 +1,8 @@
 # C# Review Notes
 This is a collection of the test scripts and notes that I took while going through [Sololearn's C# Course](https://www.sololearn.com/learning/1080).
 
+Note that I will not bother to cover concepts that are identical to C++.
+
 ## Getting Your System Setup For C# Programming
 Install .net SDK
 ```bash=
@@ -63,3 +65,15 @@ dotnet run
 ```
 
 Note that VS Code requires that the project folder be opened in order for Intellisense to work.
+
+## Compiling/Running Manually
+Doing this is much faster than using dotnet for simple programs.
+```bash
+mcs -out:run.exe Program.cs # Compile + Link
+mono run.exe # Run
+```
+
+The executable can also be decompiled like this.
+```bash
+monodis --output=decompiled.txt run.exe
+```

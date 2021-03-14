@@ -1,0 +1,16 @@
+/home/clayton/workspace/study/csharp_related/csharp_review/basic_calculator/bin/Debug/net5.0/basic_calculator
+/home/clayton/workspace/study/csharp_related/csharp_review/basic_calculator/bin/Debug/net5.0/basic_calculator.deps.json
+/home/clayton/workspace/study/csharp_related/csharp_review/basic_calculator/bin/Debug/net5.0/basic_calculator.runtimeconfig.json
+/home/clayton/workspace/study/csharp_related/csharp_review/basic_calculator/bin/Debug/net5.0/basic_calculator.runtimeconfig.dev.json
+/home/clayton/workspace/study/csharp_related/csharp_review/basic_calculator/bin/Debug/net5.0/basic_calculator.dll
+/home/clayton/workspace/study/csharp_related/csharp_review/basic_calculator/bin/Debug/net5.0/ref/basic_calculator.dll
+/home/clayton/workspace/study/csharp_related/csharp_review/basic_calculator/bin/Debug/net5.0/basic_calculator.pdb
+/home/clayton/workspace/study/csharp_related/csharp_review/basic_calculator/obj/Debug/net5.0/basic_calculator.csprojAssemblyReference.cache
+/home/clayton/workspace/study/csharp_related/csharp_review/basic_calculator/obj/Debug/net5.0/basic_calculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/clayton/workspace/study/csharp_related/csharp_review/basic_calculator/obj/Debug/net5.0/basic_calculator.AssemblyInfoInputs.cache
+/home/clayton/workspace/study/csharp_related/csharp_review/basic_calculator/obj/Debug/net5.0/basic_calculator.AssemblyInfo.cs
+/home/clayton/workspace/study/csharp_related/csharp_review/basic_calculator/obj/Debug/net5.0/basic_calculator.csproj.CoreCompileInputs.cache
+/home/clayton/workspace/study/csharp_related/csharp_review/basic_calculator/obj/Debug/net5.0/basic_calculator.dll
+/home/clayton/workspace/study/csharp_related/csharp_review/basic_calculator/obj/Debug/net5.0/ref/basic_calculator.dll
+/home/clayton/workspace/study/csharp_related/csharp_review/basic_calculator/obj/Debug/net5.0/basic_calculator.pdb
+/home/clayton/workspace/study/csharp_related/csharp_review/basic_calculator/obj/Debug/net5.0/basic_calculator.genruntimeconfig.cache
