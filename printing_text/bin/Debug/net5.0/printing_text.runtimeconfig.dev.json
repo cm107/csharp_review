@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/clayton/.dotnet/store/|arch|/|tfm|",
+      "/home/clayton/.nuget/packages"
+    ]
+  }
+}
