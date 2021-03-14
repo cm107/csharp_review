@@ -49,7 +49,7 @@ Create a new console application using dotnet.
 dotnet new console -o myapp
 ```
 
-Open the project <b><u>folder</u><b> in VS Code.
+Open the project <b><u>folder</u></b> in VS Code.
 ```bash
 cd myapp
 code .
