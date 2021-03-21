@@ -1,0 +1,16 @@
+/home/clayton/workspace/study/csharp_related/csharp_review/methods/bin/Debug/net5.0/methods
+/home/clayton/workspace/study/csharp_related/csharp_review/methods/bin/Debug/net5.0/methods.deps.json
+/home/clayton/workspace/study/csharp_related/csharp_review/methods/bin/Debug/net5.0/methods.runtimeconfig.json
+/home/clayton/workspace/study/csharp_related/csharp_review/methods/bin/Debug/net5.0/methods.runtimeconfig.dev.json
+/home/clayton/workspace/study/csharp_related/csharp_review/methods/bin/Debug/net5.0/methods.dll
+/home/clayton/workspace/study/csharp_related/csharp_review/methods/bin/Debug/net5.0/ref/methods.dll
+/home/clayton/workspace/study/csharp_related/csharp_review/methods/bin/Debug/net5.0/methods.pdb
+/home/clayton/workspace/study/csharp_related/csharp_review/methods/obj/Debug/net5.0/methods.csprojAssemblyReference.cache
+/home/clayton/workspace/study/csharp_related/csharp_review/methods/obj/Debug/net5.0/methods.GeneratedMSBuildEditorConfig.editorconfig
+/home/clayton/workspace/study/csharp_related/csharp_review/methods/obj/Debug/net5.0/methods.AssemblyInfoInputs.cache
+/home/clayton/workspace/study/csharp_related/csharp_review/methods/obj/Debug/net5.0/methods.AssemblyInfo.cs
+/home/clayton/workspace/study/csharp_related/csharp_review/methods/obj/Debug/net5.0/methods.csproj.CoreCompileInputs.cache
+/home/clayton/workspace/study/csharp_related/csharp_review/methods/obj/Debug/net5.0/methods.dll
+/home/clayton/workspace/study/csharp_related/csharp_review/methods/obj/Debug/net5.0/ref/methods.dll
+/home/clayton/workspace/study/csharp_related/csharp_review/methods/obj/Debug/net5.0/methods.pdb
+/home/clayton/workspace/study/csharp_related/csharp_review/methods/obj/Debug/net5.0/methods.genruntimeconfig.cache

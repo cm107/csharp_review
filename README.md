@@ -77,3 +77,5 @@ The executable can also be decompiled like this.
 ```bash
 monodis --output=decompiled.txt run.exe
 ```
+
+Note: For some reason you can't see when exceptions are thrown like this, but you can when you use ```dotnet run```.
