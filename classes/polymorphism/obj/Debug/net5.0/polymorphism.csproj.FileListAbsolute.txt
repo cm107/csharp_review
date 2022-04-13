@@ -1,0 +1,16 @@
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/polymorphism/bin/Debug/net5.0/polymorphism
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/polymorphism/bin/Debug/net5.0/polymorphism.deps.json
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/polymorphism/bin/Debug/net5.0/polymorphism.runtimeconfig.json
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/polymorphism/bin/Debug/net5.0/polymorphism.runtimeconfig.dev.json
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/polymorphism/bin/Debug/net5.0/polymorphism.dll
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/polymorphism/bin/Debug/net5.0/ref/polymorphism.dll
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/polymorphism/bin/Debug/net5.0/polymorphism.pdb
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/polymorphism/obj/Debug/net5.0/polymorphism.csprojAssemblyReference.cache
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/polymorphism/obj/Debug/net5.0/polymorphism.GeneratedMSBuildEditorConfig.editorconfig
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/polymorphism/obj/Debug/net5.0/polymorphism.AssemblyInfoInputs.cache
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/polymorphism/obj/Debug/net5.0/polymorphism.AssemblyInfo.cs
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/polymorphism/obj/Debug/net5.0/polymorphism.csproj.CoreCompileInputs.cache
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/polymorphism/obj/Debug/net5.0/polymorphism.dll
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/polymorphism/obj/Debug/net5.0/ref/polymorphism.dll
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/polymorphism/obj/Debug/net5.0/polymorphism.pdb
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/polymorphism/obj/Debug/net5.0/polymorphism.genruntimeconfig.cache

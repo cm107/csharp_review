@@ -5,7 +5,6 @@
 /home/clayton/workspace/study/csharp_related/csharp_review/printing_text/bin/Debug/net5.0/printing_text.dll
 /home/clayton/workspace/study/csharp_related/csharp_review/printing_text/bin/Debug/net5.0/ref/printing_text.dll
 /home/clayton/workspace/study/csharp_related/csharp_review/printing_text/bin/Debug/net5.0/printing_text.pdb
-/home/clayton/workspace/study/csharp_related/csharp_review/printing_text/obj/Debug/net5.0/printing_text.csprojAssemblyReference.cache
 /home/clayton/workspace/study/csharp_related/csharp_review/printing_text/obj/Debug/net5.0/printing_text.GeneratedMSBuildEditorConfig.editorconfig
 /home/clayton/workspace/study/csharp_related/csharp_review/printing_text/obj/Debug/net5.0/printing_text.AssemblyInfoInputs.cache
 /home/clayton/workspace/study/csharp_related/csharp_review/printing_text/obj/Debug/net5.0/printing_text.AssemblyInfo.cs
@@ -14,3 +13,4 @@
 /home/clayton/workspace/study/csharp_related/csharp_review/printing_text/obj/Debug/net5.0/ref/printing_text.dll
 /home/clayton/workspace/study/csharp_related/csharp_review/printing_text/obj/Debug/net5.0/printing_text.pdb
 /home/clayton/workspace/study/csharp_related/csharp_review/printing_text/obj/Debug/net5.0/printing_text.genruntimeconfig.cache
+/home/clayton/workspace/study/csharp_related/csharp_review/printing_text/obj/Debug/net5.0/printing_text.csproj.AssemblyReference.cache

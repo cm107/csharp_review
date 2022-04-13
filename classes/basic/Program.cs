@@ -75,6 +75,17 @@ or set a particular value from the object instance.
 Indexers are defined with the this keyword.
 
 Overloaded operator methods must be static.
+
+C# does not support multiple inheritance, so you cannot inherit from multiple
+classes.
+However, you can use interfaces to implement multiple inheritance.
+
+A class can prevent other classes from inheriting it, or any of its members,
+by using the sealed modifier.
+
+C# supports nested classes: a class that is a member of another class.
+A nested class acts as a member of the class, so it can have the same access
+modifiers as other members (public, private, protected).
 */
 
 namespace basic
@@ -307,6 +318,139 @@ namespace basic
         }
     }
 
+    class Polygon
+    {
+        public Point2D[] vertices;
+
+        public int n {
+            get {
+                return this.vertices.Length;
+            }
+        }
+
+        private string privateInfo = "Only base Polygon knows.";
+        protected string familyInfo = "Only those who inherit from base Polygon know.";
+        public string publicInfo = "Everyone knows.";
+
+        public Point2D center {
+            get {
+                Point2D working_center = new Point2D(0, 0);
+                foreach (Point2D vertex in this.vertices)
+                {
+                    working_center += vertex;
+                }
+                working_center /= this.n;
+                return working_center;
+            }
+
+            set {
+                Point2D displacement = value - this.center;
+                for (int i = 0; i < this.n; i++)
+                {
+                    this.vertices[i] += displacement;
+                }
+            }
+        }
+
+        public string getString()
+        {
+            string working_str = "[";
+            for (int i = 0; i < this.n; i++)
+            {
+                if (i == 0)
+                {
+                    working_str += this.vertices[i].getString();
+                }
+                else
+                {
+                    working_str += (", " + this.vertices[i].getString());
+                }
+            }
+            working_str += "]";
+            return working_str;
+        }
+    }
+
+    // Inheritance Example
+    class Triangle : Polygon
+    {
+        public Triangle(Point2D[] vertices)
+        {
+            this.vertices = vertices;
+        }
+
+        public double area {
+            get {
+                double abc = this.vertices[0].x * (this.vertices[1].y - this.vertices[2].y);
+                double bca = this.vertices[1].x * (this.vertices[2].y - this.vertices[0].y);
+                double cab = this.vertices[2].x * (this.vertices[0].y - this.vertices[1].y);
+                return (abc + bca + cab) / 2;
+            }
+        }
+    }
+
+    // In order to prevent people from creating a child class of a given class, the sealed keyword can be used.
+    sealed class SealedClass
+    {
+        public SealedClass()
+        {
+            Console.WriteLine("Why would you seal a class?");
+            Console.WriteLine("To protect your intellectual property I guess.");
+            Console.WriteLine("That, or maybe your class is statically interlaced with something else.");
+            Console.WriteLine("It may also make it clear to other developers who use your code that the class isn't meant to be inherited from.");
+        }
+    }
+
+    class Vehicle
+    {
+        public int nWheels {get; set;}
+        public int nMirrors {get; set;}
+
+        public Vehicle(int nWheels, int nMirrors)
+        {
+            this.nWheels = nWheels;
+            this.nMirrors = nMirrors;
+        }
+    }
+
+    class Car : Vehicle
+    {
+        public int nSeats {get; set;}
+
+        // Example of parameters in Base class's constructor
+        public Car(int nMirrors, int nSeats) : base(4, nMirrors)
+        {
+            this.nSeats = nSeats;
+        }
+    }
+
+    // Nested class example
+    class Motorcycle : Vehicle
+    {
+        public Motor motor;
+
+        public class Motor
+        {
+            private string brand;
+
+            public Motor(string brand)
+            {
+                this.brand = brand;
+            }
+
+            public string brandname {
+                get {
+                    return this.brand;
+                }
+            }
+        }
+
+        public Motorcycle(string motorBrand) : base(2, 2)
+        {
+            this.motor = new Motor(motorBrand);
+        }
+    }
+
     class Program
     {
         // If any other methods under your Program class is called in Main,
@@ -381,6 +525,29 @@ namespace basic
             Console.WriteLine("p0 + p1: " + (p0 + p1).getString());
             Console.WriteLine("p2 + 4: " + (p2 + 4).getString());
             Console.WriteLine("4 + p2: " + (4 + p2).getString());
+
+            // Inheritance
+            Point2D[] ptArr = new Point2D[3] {
+                new Point2D(-2.4, 0),
+                new Point2D(3, 1),
+                new Point2D(4, 5)
+            };
+            Triangle triangle = new Triangle(ptArr);
+            Console.WriteLine("triangle.getString(): " + triangle.getString());
+            Console.WriteLine("triangle.area: " + triangle.area);
+            Console.WriteLine("triangle.center.getString(): " + triangle.center.getString());
+            triangle.center = new Point2D(0, 0);
+            Console.WriteLine("triangle.getString(): " + triangle.getString());
+            Console.WriteLine("triangle.area: " + triangle.area);
+            Console.WriteLine("triangle.center.getString(): " + triangle.center.getString());
+
+            SealedClass sealedClass = new SealedClass();
+
+            // Nested classes can be used both inside and outside of the class itself.
+            Motorcycle motorcycle = new Motorcycle("Brand A");
+            Motorcycle.Motor motor = new Motorcycle.Motor("Famous Brand");
+            Console.WriteLine("motorcycle.motor.brandname: " + motorcycle.motor.brandname);
+            Console.WriteLine("motor.brandname: " + motor.brandname);
         }
     }
 }

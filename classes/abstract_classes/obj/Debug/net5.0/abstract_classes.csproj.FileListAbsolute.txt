@@ -1,0 +1,16 @@
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/abstract_classes/obj/Debug/net5.0/abstract_classes.csprojAssemblyReference.cache
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/abstract_classes/obj/Debug/net5.0/abstract_classes.GeneratedMSBuildEditorConfig.editorconfig
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/abstract_classes/obj/Debug/net5.0/abstract_classes.AssemblyInfoInputs.cache
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/abstract_classes/obj/Debug/net5.0/abstract_classes.AssemblyInfo.cs
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/abstract_classes/obj/Debug/net5.0/abstract_classes.csproj.CoreCompileInputs.cache
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/abstract_classes/bin/Debug/net5.0/abstract_classes
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/abstract_classes/bin/Debug/net5.0/abstract_classes.deps.json
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/abstract_classes/bin/Debug/net5.0/abstract_classes.runtimeconfig.json
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/abstract_classes/bin/Debug/net5.0/abstract_classes.runtimeconfig.dev.json
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/abstract_classes/bin/Debug/net5.0/abstract_classes.dll
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/abstract_classes/bin/Debug/net5.0/ref/abstract_classes.dll
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/abstract_classes/bin/Debug/net5.0/abstract_classes.pdb
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/abstract_classes/obj/Debug/net5.0/abstract_classes.dll
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/abstract_classes/obj/Debug/net5.0/ref/abstract_classes.dll
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/abstract_classes/obj/Debug/net5.0/abstract_classes.pdb
+/home/clayton/workspace/study/csharp_related/csharp_review/classes/abstract_classes/obj/Debug/net5.0/abstract_classes.genruntimeconfig.cache
